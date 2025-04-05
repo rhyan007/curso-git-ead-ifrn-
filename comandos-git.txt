@@ -1,0 +1,12 @@
+git--version : mostra a versão do git instalada
+git init--initial-branch=main : inicializa um repositório local na branch main
+git config user.name : altera o nome do usuário local do projeto
+git config user.email : altera o e-mail do usuário local do projeto
+git config--list--local : exibe as configurações locais do projeto
+git config--list--global : exibe as configurações globais do git
+git status : exibe o estado do repositório em relação aos arquivos
+git add <arquivo(s)> :  adiciona os arquivos ao futuro commit
+git commit-m “<mensagem do commit>” : realiza um commit
+git log --oneline : exibe os commits realizados de forma resumida
+git remote add origin-github https://github.com/rhyan007/curso-git-ead-ifrn-.git
+git push -u origin-github main
